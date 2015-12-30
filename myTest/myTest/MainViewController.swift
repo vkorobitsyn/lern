@@ -15,4 +15,10 @@ class MainViewController: UIViewController {
         super.viewWillAppear(animated)
     }
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("dev - owne branch")
+    }
+    
+    
 }
