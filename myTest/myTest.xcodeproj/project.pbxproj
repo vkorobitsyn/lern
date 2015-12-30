@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9F4586B1C33B29500230635 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4586A1C33B29500230635 /* MainViewController.swift */; };
 		B9FC1CD91B432938007853BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC1CD81B432938007853BC /* main.m */; };
 		B9FC1CDC1B432938007853BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC1CDB1B432938007853BC /* AppDelegate.m */; };
 		B9FC1CDF1B432938007853BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FC1CDE1B432938007853BC /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9F4586A1C33B29500230635 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B9FC1CD31B432938007853BC /* myTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FC1CD71B432938007853BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9FC1CD81B432938007853BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				B9FC1CDD1B432938007853BC /* ViewController.h */,
 				B9FC1CDE1B432938007853BC /* ViewController.m */,
 				B9FC1CE01B432938007853BC /* Main.storyboard */,
+				B9F4586A1C33B29500230635 /* MainViewController.swift */,
 				B9FC1CE31B432938007853BC /* Images.xcassets */,
 				B9FC1CE51B432938007853BC /* LaunchScreen.xib */,
 				B9FC1CD61B432938007853BC /* Supporting Files */,
@@ -163,6 +166,7 @@
 		B9FC1CCB1B432938007853BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Vitaliy Korobitsyn";
 				TargetAttributes = {
@@ -222,6 +226,7 @@
 				B9FC1CDF1B432938007853BC /* ViewController.m in Sources */,
 				B9FC1CDC1B432938007853BC /* AppDelegate.m in Sources */,
 				B9FC1CD91B432938007853BC /* main.m in Sources */,
+				B9F4586B1C33B29500230635 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +352,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = myTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -357,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = myTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +424,7 @@
 				B9FC1CF81B432938007853BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9FC1CF91B432938007853BC /* Build configuration list for PBXNativeTarget "myTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				B9FC1CFB1B432938007853BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
