@@ -22,6 +22,5 @@ class MainViewController: UIViewController {
     
     func viewD4idUnload() {
         super.viewDidLoad()
-        print(<#T##items: Any...##Any#>)
     }
 }
