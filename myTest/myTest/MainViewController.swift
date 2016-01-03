@@ -23,4 +23,8 @@ class MainViewController: UIViewController {
     func viewD4idUnload() {
         super.viewDidLoad()
     }
+    
+    func AddedAfterStashing(){
+        print("this added after Stashing")
+    }
 }
