@@ -20,5 +20,7 @@ class MainViewController: UIViewController {
         print("dev - owne branch")
     }
     
-    
+    func viewD4idUnload() {
+        super.viewDidLoad()
+    }
 }
